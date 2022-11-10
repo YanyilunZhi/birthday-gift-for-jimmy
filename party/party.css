@@ -24,8 +24,8 @@ body {
 .prompt{
   width: 100vw;
   height: 100vh;
-  font-size: 48pt;
-  padding: 48pt;
+  font-size: 36pt;
+  padding: 72pt;
   text-align: center;
   display: flex;
   align-items: center;
@@ -58,12 +58,12 @@ body {
   width: 100%;
   padding: 4pt;
   border-radius: 4pt;
-  font-size: 24pt;
+  font-size: 18pt;
 }
 
 .vanillajs-table-data tr td:last-of-type{
   width: 100%;
-  font-size: 48pt;
-  padding: 0pt 48pt;
+  font-size: 36pt;
+  padding: 0pt 72pt;
   line-height: 1;
 }
