@@ -62,4 +62,9 @@ button{
   body {
     font-size: 18pt;
   }
+
+.form{
+  padding: 6pt;
+}
+
 }
