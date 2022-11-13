@@ -24,3 +24,20 @@ function init() {
 }
 
 window.addEventListener("DOMContentLoaded", init);
+
+function handpan(){
+  var handpanMP3 = new Audio;
+  handpanMP3.src = 'handpan.mp3';
+  handpanMP3.play();
+  handpanMP3.loop = true;
+  handpanMP3.autoplay = true;
+
+  // audio on mobile 
+  document.getElementsByTagName('body')[0].addEventListener('click', function(e){
+    handpanMP3.play();
+    handpanMP3.loop = true;
+    handpanMP3.autoplay = true;
+  })
+}
+
+handpan();

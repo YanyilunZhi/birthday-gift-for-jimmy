@@ -4,6 +4,7 @@ body {
   padding: 0;
   background-color: yellow;
   font-size: 36pt;
+  font-family: 'ZCOOL KuaiLe', sans-serif;
 }
 
 *{
@@ -18,7 +19,6 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  /* border: 1px solid blue; */
 }
 
 #button-container{
